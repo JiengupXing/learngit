@@ -74,3 +74,12 @@ Git是一个分布式版本控制系统，由Linux的创始人Linus为Linux开�
 	//git stash apply + git stash drop = git stash pop
 #查看远程库的信息
 	git remote
+
+#标签管理
+##创建标签
+	git tag <name>
+##查看所有标签
+	git tag
+##指定标签名、指定说明文字
+	git tag -a v1.0 -m “version 0.1 released”
+	//-a 指定签名 -m指定说明文字
